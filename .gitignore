@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+src/components/MovieCard.jsx
+src/pages/Liked.jsx
