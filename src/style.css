@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Input Styling */
+#api-response input {
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+/* Movie Grid Layout */
+#api-show,
+#api-like,
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Movie Card Styling */
+.card {
+  position: relative;
+  background-color: white;
+  max-width: 280px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  padding: 16px;
+  text-align: left;
+}
+
+.container h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.container p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.AddLikedBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #393e43;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.AddLikedBtn:hover {
+  background-color: #10151a;
+}
+
+.movie-details {
+  margin-top: 10px;
+  font-size: 14px;  
+  color: #444;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
+
