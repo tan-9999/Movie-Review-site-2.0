@@ -3,7 +3,7 @@ import DetailCard from "./DetailCard";
 import Card from "./Card";
 import { ApiContext } from "../context/apiContext";
 
-const ApiKey = "37fca347";
+const ApiKey = "#";
 
 function MovieCard({searchName}) {
   const [movieList, setMovieList] = useState([]);
