@@ -3,7 +3,7 @@ import DetailCard from "../components/DetailCard";
 import Card from "../components/Card";
 // import useApi from "./context/apiContext"
 
-const ApiKey = "37fca347";
+const ApiKey = "#";
 
 function Liked() {
   const [movieList, setMovieList] = useState([]);
